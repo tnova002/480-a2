@@ -45,7 +45,7 @@ if __name__ == '__main__':
 	goalState = np.array([[1, 2, 3, 4, 5],[6, 7, 8, 9, 10],[11, 12, 13, 14, 15],[16, 17, 18, 19, 20],[21, 22, 23, 24, 0]])
 	initialState = np.array([[3, 17, 9, 5, 21],[11, 0, 13, 19, 10],[6, 24, 22, 1, 20],[16, 14, 4, 12, 15],[18, 8, 23, 2, 7]])
 	#goalState = np.array([[1, 2, 3],[4, 5, 6],[7, 8, 0]])
-	#initialState = np.array([[7, 0, 4],[2, 6, 1],[3, 8, 5]])
+	#initialState = np.array([[0, 2, 8],[1, 5, 4],[7, 3, 6]])
 	#declare a priority queue, closed list, and counter variable for the informed search
 	open = q.PriorityQueue()
 	closed = []
