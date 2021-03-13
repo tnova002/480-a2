@@ -1,17 +1,22 @@
 #480-a2
-*Execution*
+
+**Execution**
+
 The two scripts are standalone scripts that can be executed
 by simply executing them in a Python environment with no 
 special arguments or flags needed. 
 
 h1.py is the 'misplaced tile' heuristic and h2.py is the 'Manhattan' heuristic.
 
-*Performance*
+**Performance**
+
 Like the previous assignment, the informed search algorithms 
 were not able to find a solution to the 24-puzzle problem within
 a reasonable time constraint (about an hour each). 
 I formatted the output from the program as such:
+
 (h, c, state)
+
 where h is the heuristic value of the given state, c is the counter
 which was used as a tie-breaker for placement in the priority queue,
 and state is the current state of the board.
